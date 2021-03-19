@@ -13,7 +13,7 @@
 #
 class rsyslog::params {
 
-  $max_message_size               = '2k'
+  $max_message_size               = '64k'
   $system_log_rate_limit_interval = '1'
   $system_log_rate_limit_burst    = '100'
   $purge_rsyslog_d                = false
